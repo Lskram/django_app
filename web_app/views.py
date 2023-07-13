@@ -2,7 +2,7 @@ from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def home (reonest):
-    return HttpResponse("Hello,this my fasion ขวดน้อยเหน็บกางเกง")
+    return HttpResponse("Hello,this my project")
 
 def about(request):
     return HttpResponse("About Us")
